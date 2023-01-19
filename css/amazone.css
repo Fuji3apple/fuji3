@@ -1,0 +1,65 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: auto;
+}
+
+.logIn{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.amzLogo{
+    width: 250px;
+}
+
+.logIn-box{
+    border: 1.5px;
+    border-color: rgb(200, 200, 200);
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px 40%;
+}
+
+.logIn-box2{
+    text-align: left;
+    padding: 0 7.55% 0 7.5%;
+    margin-bottom: 20px;
+
+}
+
+.logIn-box2 a{
+    font-size:10px;
+    text-decoration: none;
+    padding: 15px 0 0 8%;
+    margin-top: 50px;
+    color: rgb(120, 100, 255);
+}
+
+span{
+    text-decoration:solid;
+}
+
+.logIn-box3 input{
+    width: 99%;
+}
+
+.logIn-box3 button{
+    width: 100%;
+}
+
+.logIn-box-bottom{
+    margin-bottom: 15px;
+}
+
+.logIn-box3 p{
+    margin-bottom: 5px;
+}
+#logIn{
+    background-color: rgb(255, 193, 100);
+    border: 5px;
+    border-color: rgb(200, 200, 200);
+    border-radius: 5px;
+    padding: 2.5% 38% 2.5% 38%;
+    margin: 20px 0 20px 0;
+}

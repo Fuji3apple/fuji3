@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    background-image: url("haribo_1.png");
+        background-repeat: no-repeat;
+        background-position:50% 15%;
+        height: fit-content;
+        background-size: 2000px;
+}
+h1{
+    background-color: #1f1f1f;
+    margin: 0;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 65px;
+    color: rgb(255, 234, 45);
+}
+.main {
+    margin: 0 30px 0 30px;
+}
+span{
+    color: rgb(255, 51, 0);
+}
+a {
+    text-decoration:none;
+}
+.main p {
+    color: #000000;
+    text-align: center;
+    font-size: 80px;
+    font-family: Yu Gothic UI;
+    font-weight: 1000;
+    border-bottom: double rgb(255, 166, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p {
+    text-align: center;
+    font-family: Yu Gothic UI;
+    font-weight: 1000;
+    color: #000000;
+}
+/* button */
+.button001 a {
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.button001 a:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: 2rem;
+  font-size: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: right 0.3s;
+  width: 6px;
+  height: 6px;
+  border-top: solid 2px currentColor;
+  border-right: solid 2px currentColor;
+  transform: translateY(-50%) rotate(45deg);
+}
+.button001 a:hover {
+  background: #6bb6ff;
+  color: #FFF;
+}
+.button001 a:hover:after {
+  right: 1.4rem;
+}
